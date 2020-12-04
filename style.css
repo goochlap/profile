@@ -1,8 +1,8 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
 
 @font-face {
-  font-family: 'Mandalore-laser';
-  src: url('Fonts/Mandalorian/mandalorelasertitle.ttf') format('truetype');
+  font-family: 'Mandalore';
+  src: url('Fonts/Mandalorian/mandalore.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Mandalore2';
@@ -20,7 +20,7 @@ body {
   background-size: cover;
 }
 h1 {
-  font-family: 'Mandalore-laser';
+  font-family: 'Mandalore';
   color: #253F6A;
   font-size: 50px;
 }
