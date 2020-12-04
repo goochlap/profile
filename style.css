@@ -1,0 +1,107 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+@font-face {
+  font-family: 'Mandalore-laser';
+  src: url('Fonts/Mandalorian/mandalorelasertitle.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Mandalore2';
+  src: url('Fonts/Mandalorian/mandalorehalf.ttf') format('truetype');
+}
+body {
+  background-color: #EBFFFB;
+  font-size: 25px;
+  line-height: 1.4;
+}
+#bg {
+  background-image: url("images/bg.jpg");
+  height: 120%;
+  background-position: center;
+  background-size: cover;
+}
+h1 {
+  font-family: 'Mandalore-laser';
+  color: #253F6A;
+  font-size: 50px;
+}
+h2 {
+  font-family: 'Mandalore';
+  color: #253F6A;
+  font-size: 50px; 
+}
+a {
+  text-decoration: none;
+  font-family: 'Mandalore';
+  color: #253F6A;
+}
+p {
+  font-family: 'Mandalore2';
+  color: #79a3b1;
+  font-size: 50px;
+}
+.container {
+  width: 600px;
+  margin: 20px auto;
+}
+.card-white {
+  background-color: f1f3f4;
+  padding: 40px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.6);
+  border-radius: 4px;
+  margin: 23px 0px;
+  text-align: center;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 0px 24px;
+  font-size: 36px;
+}
+.list-inline a {
+  color: 79a3b1;
+  transition: color 1s;
+}
+ul :hover {
+  color: black;
+}
+.btn-black {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  transition: color 1s;
+  transition: background-color 1s;
+}
+.btn-black:hover {
+  background-color: rgba(0, 0, 0, .2);
+  color: #253F6A;
+}
+.img-circle {
+  border-radius: 10%;
+} 
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }  
+  .container h1, p {
+    font-size: 30px;
+  }
+  .card-white {
+    height: 400px;
+    width: 400px;
+  }
+}
+@media (max-width: 540px) {
+  .container h1, p {
+    width: 200px;
+    font-size: 25px;
+  }
+  .card-white {
+    height: 400px;
+    width: 200px;
+  }
+}
+
